@@ -1,0 +1,26 @@
+.fotos-cont {
+	width: 80%;
+	margin: 50px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	grid-gap: 30px;
+}
+
+.fotos-cont img {
+	width: 100%;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+
+.fotos-cont img:hover {
+	transform: scale(0.95);
+	border-radius: 20px;
+	box-shadow: 0 32px 7px rgba(68);
+}
+
+@media only screen and (max-width: 600px) {
+	.fotos-cont img {
+		width: 80%;
+	}
+}

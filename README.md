@@ -1,16 +1,8 @@
-# fast2furious
-This project is going to be a page based on the movies Fast and Furious. This project is too far to be that i want.
+# React + Vite
 
-## Components
-FOOTER: the default footer for the webpage.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-HEADER: the default header for the webpage.
+Currently, two official plugins are available:
 
-
-## Models
-fotos.js: I tried to put some images but it didn't work
-
-## Pages
-This project is going to have three 4 pages Home, Cars, Locations and characters
-
-[MIT](https://choosealicense.com/licenses/mit/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
