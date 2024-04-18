@@ -1,11 +1,8 @@
 # fast2furious
-# Foobar
+This project is going to be a page based on the movies Fast and Furious. This project is too far to be that i want.
 
-Foobar is a Python library for dealing with word pluralization.
+## Components
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 pip install foobar
