@@ -3,9 +3,8 @@ This project is going to be a page based on the movies Fast and Furious. This pr
 
 ## Components
 FOOTER: the default footer for the webpage.
+
 HEADER: the default header for the webpage.
-NEWSCONTAINERS: this component displays the information stored in the news.js file, using the slider from SLICK.
-PHOTOS: this component displays the images stored in the photos.js file, displaying them in columns with hover effects.
 
 ```bash
 pip install foobar
