@@ -1,0 +1,122 @@
+.container-main {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.info {
+    margin: auto;
+    width: 95%;
+}
+
+.info-container {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.info-preview {
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image img {
+    padding: 5px;
+    border-radius: 20px;
+    width: 75%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.info-title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.info-content {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.info-button {
+    margin: 10px auto 15px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info-button a{
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.info-button a::before {
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.info-button a:hover::before {
+    width: 100%;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-prev:before{
+    color: black !important;
+}
+
+.slick-next:before{
+    color: black !important;
+}
+
+
+.info-image img:hover{
+    transform: scale(0.95);
+    border-radius: 20px;
+    box-shadow: 0 32px 7px rgba(68);
+}
+
+/* @media only screen and (max-width: 600px) {
+    .info{
+        width: 89%;
+    }
+
+    .info-title{
+        font-size: 14px;
+    }
+
+    .info-content{
+        font-size: 12px;
+    }
+  } */
