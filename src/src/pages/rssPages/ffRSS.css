@@ -1,0 +1,65 @@
+.ffRSS-page {
+    background-image: url(public/fotos/fondomain.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 60%;
+}
+
+.main-locates {
+    height: 100vh;
+    overflow-y: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.turn-back {
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid black;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.turn-back:hover{
+    background-color: #bbb;
+}
+
+.turn-back a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.turn-back a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.turn-back a:hover::before {
+    width: 100%;
+}
+
+.main-locates-content {
+    width: 70vw;
+    margin: 100px 60px 50px;
+    font-weight: bolder;
+}
+
+.main-locates-preview {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.main-locates-preview img {
+    padding: 20px;
+    width: 70vw;
+    border-radius: 20px;
+}

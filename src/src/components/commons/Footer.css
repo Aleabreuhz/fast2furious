@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    color: #59737e;
+    font-family: "Antique Olive Nord Italic";
+}
+
+footer {
+    background: #343434;
+    padding-top: 30px;
+    margin-top: 120%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer-content {
+    width: 43.3%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+
+.list li:hover::before {
+    width: 70px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f18930;
+}
+
+.social-icons i:hover {
+    color: #f18930;
+}
+
+.bottom-bar {
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.bottom-bar p {
+    font-family: "Antique Olive Nord Italic";
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 51px;
+        color: white;
+    }
+    
+    .container {
+        max-width: 70%;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+        h3 {
+        font-size: 95px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p {
+        width: 100%;
+        margin: auto;
+        padding: 7px;
+    }
+    .bottom-bar {
+        background: #f18930;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    
+    .bottom-bar p {
+        color: #343434;
+        margin: 0;
+        font-size: 56px;
+        padding: 7px;
+    }
+}
