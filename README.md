@@ -1,4 +1,4 @@
-# Fast and Furious Fan Site
+# Fast and Furious Fan Site (Made it for mobile)
 
 Welcome to the Fast and Furious Fan Site! This website is dedicated to all fans of the Fast and Furious franchise. Here, you can explore two main features:
 
